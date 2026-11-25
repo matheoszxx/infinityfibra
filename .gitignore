@@ -1,0 +1,9 @@
+# dependências das ferramentas de imagem (reinstale com: cd tools && npm install)
+node_modules/
+
+# sistema / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.log
