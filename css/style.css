@@ -59,8 +59,6 @@ p { margin: 0; }
   color: var(--lilac);
   display: inline-flex; align-items: center; gap: 10px;
 }
-.eyebrow .dot { width: 8px; height: 8px; border-radius: 50%; background: #34ff9a; box-shadow: 0 0 12px #34ff9a; animation: blink 1.6s infinite; }
-@keyframes blink { 50% { opacity: .35; } }
 .fineprint { font-size: 12px; color: var(--muted); margin-top: 14px; }
 .gold { color: var(--gold); }
 .link { color: var(--lilac); text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 2px; transition: color .3s, border-color .3s; }
@@ -197,7 +195,6 @@ p { margin: 0; }
     radial-gradient(circle at 43% 1.9%, rgba(217, 194, 255, .7) 0 1px, transparent 2px);
 }
 .hero__content { position: relative; z-index: 2; max-width: 760px; }
-.hero__eyebrow { margin-bottom: 26px; }
 .hero__title { font-family: var(--f-display); font-weight: 900; font-size: clamp(44px, 6.8vw, 112px); line-height: .94; letter-spacing: -.045em; }
 .hero__title .line { display: block; overflow: hidden; padding-bottom: .06em; }
 .hero__title .word { display: inline-block; }
@@ -451,7 +448,7 @@ p { margin: 0; }
 /* ---------- Reveal (só com JS) ---------- */
 .js .reveal { opacity: 0; transform: translateY(40px); }
 .js .hero__title .word { transform: translateY(110%); }
-.js .hero__eyebrow, .js .hero__lead, .js .hero__ctas, .js .hud, .js .hero__scroll { opacity: 0; }
+.js .hero__lead, .js .hero__ctas, .js .hud, .js .hero__scroll { opacity: 0; }
 
 @media (prefers-reduced-motion: reduce) {
   .grain, .marquee__track, .radar__sweep, .launch__btn-ring, .orbit__core { animation: none !important; }

@@ -460,7 +460,6 @@
       .to(R, { introT: 1, duration: 3.4, ease: 'power1.inOut' }, 0)
       .to(space, { warp: 0, duration: 2.2, ease: 'power2.inOut' }, 1.2)
       .to('.hero__title .word', { y: 0, duration: 1.1, stagger: 0.07, ease: 'expo.out' }, 1.4)
-      .to('.hero__eyebrow', { opacity: 1, duration: 0.8 }, 1.6)
       .fromTo('.hero__lead', { y: 20 }, { opacity: 1, y: 0, duration: 0.9, ease: 'power3.out' }, 2.0)
       .fromTo('.hero__ctas', { y: 20 }, { opacity: 1, y: 0, duration: 0.9, ease: 'power3.out' }, 2.15)
       .to(['.hud', '.hero__scroll'], { opacity: 1, duration: 0.8 }, 2.4)
